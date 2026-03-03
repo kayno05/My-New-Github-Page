@@ -1,0 +1,67 @@
+body { 
+
+    font-family: poppins, sans-serif; 
+
+    color: #333; 
+
+    background-color: #1c1c1c;/*deep charcoal*/
+
+    margin: 0; 
+
+    padding: 0; 
+    box-sizing: border-box;
+    line-height: 1.6; 
+
+} 
+footer { 
+
+    background-color: #333; 
+
+    color: #aaa; 
+background-color: #121212;
+    text-align: center; 
+
+    padding: 20px; 
+
+    position: fixed; 
+
+    bottom: 0; 
+
+    width: 100%; 
+
+} 
+p{  
+    font-size: 1.2em;
+}
+a { 
+
+    color: #230981; 
+
+    text-decoration: none; 
+
+} 
+
+
+ 
+
+a:hover { 
+
+    text-decoration: underline; 
+
+} 
+img { 
+
+    border: 5px solid #4CAF50; 
+
+    border-radius: 10px; 
+
+} 
+
+
+main a[href^="mailto:"] { 
+
+    color: #ff5722; 
+
+    font-weight: bold; 
+
+} 
