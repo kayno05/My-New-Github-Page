@@ -64,7 +64,7 @@ img {
 
 main a[href^="mailto:"] { 
 
-    color: #1089ad; 
+    color: #375bbe; 
 
     font-weight: bold; 
 
@@ -87,7 +87,52 @@ main a[href^="mailto:"] {
 }
 :horizontal-gallery{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     overflow-x: auto;
     padding: 20px 0;
 }
+form {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #144be0;
+            border-radius: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #aaa;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Photography Services</h1>
